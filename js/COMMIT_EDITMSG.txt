@@ -1,0 +1,19 @@
+ 
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch and 'origin/main' have diverged,
+# and have 2 and 1 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# Changes to be committed:
+#	new file:   1.1javascript/.gitattributes
+#	new file:   1.1javascript/Redme.md
+#	new file:   1.1javascript/css/style.css
+#	new file:   1.1javascript/imag/search.svg
+#	new file:   1.1javascript/index.html
+#	new file:   1.1javascript/js/feth-polyfill.js
+#	new file:   1.1javascript/js/promise-poylfill.js
+#	new file:   1.1javascript/js/scripet.js
+#

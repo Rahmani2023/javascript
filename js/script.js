@@ -1,3 +1,4 @@
+
 let pokemonRepository = (function () { //wrapping the pokemonList inside of an IIFE (Immediately Invoked Function Expression)
     let pokedex = [ //database of pokemon for the pokedex
         {
@@ -70,11 +71,6 @@ let pokemonRepository = (function () { //wrapping the pokemonList inside of an I
 pokemonRepository.getAll().forEach( function (pokemon) {
     pokemonRepository.addListItem(pokemon);
 });
-
-
-
-
-
 
 
 
