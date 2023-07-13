@@ -21,3 +21,9 @@ Ninetales(height: 1.1)
 for (let i = 0;  i < pokemonList.length; i++) {
   // for-loop body
   }
+  function print(){
+    decumment.write("Charizard(height: 1.7)
+    Fearow(height: 1.2)
+    Ninetales(height: 1.1)")
+  };
+  print();
