@@ -6,24 +6,14 @@ const pokemonList = [
 
 let text ="charizard";
 for (let x in pokemonList) {
-  Text += person[x];
-
-  charizard(height : 1.7)
+  
 }
 let charizard = true;
-if (charizard [i].height >=1) {
-  console.log('-Wow,thats Big!');
+if (charizard [].height >=1) {
+  console.log('true'(charizard [].height >=1) );
 }
-Charizard(height: 1.7)
-Fearow(height: 1.2)
-Ninetales(height: 1.1)
 
 for (let i = 0;  i < pokemonList.length; i++) {
-  // for-loop body
+ 
   }
-  function print(){
-    decumment.write("Charizard(height: 1.7)
-    Fearow(height: 1.2)
-    Ninetales(height: 1.1)")
-  };
-  print();
+  
