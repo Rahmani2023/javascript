@@ -9,8 +9,8 @@ for (let x in pokemonList) {
   
 }
 let charizard = true;
-if (charizard [].height >=1) {
-  console.log('true'(charizard [].height >=1) );
+if (charizard .height >=1) {
+  console.log('true'(charizard .height >=1) );
 }
 
 for (let i = 0;  i < pokemonList.length; i++) {
@@ -37,4 +37,16 @@ for (let i = 0;  i < pokemonList.length; i++) {
     return a / b;
   }
   
-  
+  double price = 100;
+  boolean isstudent = true;
+  int age = 15;
+  if ( isstudent){
+    price /= 2 ;
+  }
+  if (age <= 15){
+    price /=2;
+  }
+  if (age >= 60){
+    price /=2;
+  }
+  System.out.println(price);
