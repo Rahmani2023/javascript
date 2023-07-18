@@ -4,50 +4,18 @@ const pokemonList = [
   { name: "Ninetales", height: 1.1, types: ["fire"] },
 ];
 
-let text ="charizard";
-for (let x in pokemonList) {
-  
+document.write("<div class='pokedex'>");
+
+for (let i = 0; i < pokemonList.length; i++) {
+  document.write(
+    pokemonList[i].name + " (height " + pokemonList[i].height + ")"
+  );
+
+  if (pokemonList[i].height >= 1.5) {
+    document.write(" wow that is big ");
+  }
+
+  document.write("<br>");
 }
-let charizard = true;
-if (charizard .height >=1) {
-  console.log('true'(charizard .height >=1) );
-}
 
-for (let i = 0;  i < pokemonList.length; i++) {
- 
-  }
-
-
-  function add(a, b) {
-    return a + b;
-  }
-  
-  function subtract(a, b) {
-    return a - b;
-  }
-  
-  function multiply(a, b) {
-    return a * b;
-  }
-  
-  function divide(a, b) {
-    if (b === 0) {
-      return "Not Allowed";
-    }
-    return a / b;
-  }
-  
- price = 100;
-  boolean isstudent = true;
-  int age = 15;
-  if ( isstudent){
-    price /= 2 ;
-  
-  }
- else if (age <= 15){
-    price /=2;
-  }
-  else if (age >= 60){
-    price /=2;
-  }
-  System.out.println(price);
+document.write("</div>");
