@@ -37,16 +37,17 @@ for (let i = 0;  i < pokemonList.length; i++) {
     return a / b;
   }
   
-  double price = 100;
+ price = 100;
   boolean isstudent = true;
   int age = 15;
   if ( isstudent){
     price /= 2 ;
+  
   }
-  if (age <= 15){
+ else if (age <= 15){
     price /=2;
   }
-  if (age >= 60){
+  else if (age >= 60){
     price /=2;
   }
   System.out.println(price);
